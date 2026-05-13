@@ -95,8 +95,6 @@ Dans les Secrets du Space API, ajouter :
 | `AWS_SECRET_ACCESS_KEY` | ta clé secrète AWS |
 | `AWS_DEFAULT_REGION` | `eu-west-3` |
 
-> Les clés AWS sont nécessaires dans l'API uniquement en mode `registry`,
-> pour que `mlflow.sklearn.load_model` puisse lire les artefacts depuis S3.
 
 ---
 
@@ -134,5 +132,5 @@ Puis **restart du Space API** → il charge automatiquement le nouveau champion 
 git remote add origin-hf-mlflow \
     https://huggingface.co/spaces/YOUR_USERNAME/getaround-mlflow
 
-git subtree push --prefix mlflow origin-hf-mlflow main
+git push mlflow origin-hf-mlflow main
 ```
