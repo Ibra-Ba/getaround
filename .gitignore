@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model artifacts (tracked via MLflow / HF)
+*.joblib
+*.pkl
+*.pt
+*.pth
+
+# Other
+project_structure.md
+
+# Data (sensitive)
+# data/ is committed for this project (small files)
