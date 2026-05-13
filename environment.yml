@@ -21,3 +21,5 @@ dependencies:
       - streamlit==1.35.0
       - plotly==5.22.0
       - python-dotenv==1.0.0
+      - setuptools==75.1
+      - boto3==1.43.6

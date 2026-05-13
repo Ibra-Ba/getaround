@@ -33,6 +33,7 @@ Thumbs.db
 *.pkl
 *.pt
 *.pth
+api/*.joblib
 
 # Other
 project_structure.md
