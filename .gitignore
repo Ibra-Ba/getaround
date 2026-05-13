@@ -36,6 +36,8 @@ Thumbs.db
 
 # Other
 project_structure.md
+notebooks/02-Getaround_analysis.ipynb
+readme.md
 
 # Data (sensitive)
 # data/ is committed for this project (small files)
