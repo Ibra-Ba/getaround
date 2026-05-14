@@ -39,6 +39,7 @@ api/*.joblib
 project_structure.md
 notebooks/02-Getaround_analysis.ipynb
 readme.md
+deploy.sh
 
 # Data (sensitive)
 # data/ is committed for this project (small files)
